@@ -1,29 +1,31 @@
 {
-	"name": "atom-mypy",
-	"main": "./lib/index",
-	"version": "0.1.0",
-	"description": "Mypy linter for Atom",
-	"keywords": ["mypy"],
-	"repository": "https://github.com/viktor25/atom-mypy",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=1.0.0 <2.0.0"
-	},
-	"dependencies": {
-		"atom-linter": "^9.0.1",
-		"atom-package-deps": "^4.5.0",
-		"bluebird": "^3.5.0",
-		"ini": "^1.3.4",
-		"shell-quote": "^1.6.1"
-	},
-	"package-deps": [
-		"linter:2.0.0"
-	],
-	"providedServices": {
-		"linter": {
-			"versions": {
-				"2.0.0": "provideLinter"
-			}
-		}
-	}
+  "name": "atom-mypy",
+  "main": "./lib/index",
+  "version": "0.2.0",
+  "description": "Mypy linter for Atom",
+  "keywords": [
+    "mypy"
+  ],
+  "repository": "https://github.com/viktor25/atom-mypy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-linter": "^9.0.1",
+    "atom-package-deps": "^4.5.0",
+    "bluebird": "^3.5.0",
+    "ini": "^1.3.4",
+    "shell-quote": "^1.6.1"
+  },
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
 }
