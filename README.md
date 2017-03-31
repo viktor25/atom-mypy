@@ -1,8 +1,5 @@
 # atom-mypy
 
-
-## Features
-
  - Lint as you type
  - Support for mypy's experimental incremental mode for faster type checking
  - Per-project configuration with `mypy.ini`
