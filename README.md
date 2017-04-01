@@ -6,7 +6,7 @@
  - Support for including stubs inside the project (relative `MYPYPATH`)
 
 
-![Screenshot](screenshot.png?raw=true)
+![Screenshot](https://github.com/viktor25/atom-mypy/blob/master/screenshot.png?raw=true)
 
 
 ## Requirements
